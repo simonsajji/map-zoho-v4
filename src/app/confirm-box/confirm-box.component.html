@@ -1,0 +1,19 @@
+<div *ngIf="datanew?.destinationRoute" class="mat-parent flex-column">
+    <div class=" f-s-15 m-b-10 f-w-400 ">Are you sure want to <span class="f-w-500">move</span> previously selected <span class="f-w-500  m-0"> {{datanew?.locations}} Locations </span></div>
+    <div class="f-w-500"><span class="f-w-400">to</span> Current Route ?</div>
+   
+    <div class="btn-parent text-center d-flex align-center j-center ">
+        <button mat-button class=" bg-primary-color m-r-5 f-s-13"  (click)="okClick()">MOVE</button>
+        <button mat-button class="btn btn-secondary btn-cancel f-s-13" style="background-color:transparent!important;color:black" (click)="cancelClick()">CANCEL</button>
+    </div>
+</div> 
+<div *ngIf="!datanew?.destinationRoute" class="mat-parent flex-column">
+    <div class=" f-s-15 m-b-10 f-w-400 ">Are you sure want to <span class="f-w-500">remove</span> all selected <span class="f-w-500  m-0"> {{datanew?.locations}} Locations </span></div>
+    <div class="f-w-500"><span class="f-w-400">from the </span>  Current Route ?</div>
+   
+    <div class="btn-parent text-center d-flex align-center j-center ">
+        <button mat-button class=" bg-primary-color m-r-5 f-s-13" style="border-radius:5px!important" (click)="okClick()">REMOVE</button>
+        <button mat-button class="btn btn-secondary btn-cancel f-s-13" style="background-color:transparent!important;color:black;border-radius:5px!important" (click)="cancelClick()">CANCEL</button>
+    </div>
+</div> 
+

@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .map {
+    height:100%;
+  }
+
+  .c-gr{
+    color:grey;
+  }
+
+  .p-relative{
+    position: relative !important;
+  }
+  .p-abs{
+    position: absolute !important;
+  }
+
+
+  .flex-1{
+    flex:1 !important;
+  }
+  .flex-2{
+    flex:2 !important;
+  }
+  .flex-3{
+    flex:3 !important;
+  }
+
+  .w-80{
+    width: 80%!important;
+  }
+  .w-90{
+    width: 90%!important;
+  }
+  .w-95{
+    width: 95% !important;
+  }
+
+  .w-100{
+    width: 100%!important;
+  }
+
+  .c-pointer{
+    cursor: pointer!important;
+  }
+
+
+.timepicker-overlay {
+    z-index: 1000 !important;
+}
+
+ .timepicker-backdrop-overlay {
+    z-index: 1000!important;
+}
+.timepicker-dial {
+  border-bottom: 1px solid rgba(181, 12, 12, 0.12);
+  display: flex;
+  justify-content: center;
+
+}
+
+.mat-checkbox-checked.mat-accent{
+  background-color: #005691!important;
+}
+
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: #005691;
+}
+
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: grey!important;
+}
+
+.mat-select{
+  font-size: 14px;
+}
+.mat-input{
+  font-size: 14px;
+}
+
+ .mat-option-selected-value{
+  background-color : rgb(241, 241, 241)!important;
+ }
+
+.c-gr-light{
+  color: #9b9b9b;
+}
+
+.align-start{
+  align-items: flex-start!important;
+  justify-content: flex-start!important;
+}
+
+.c-dark{
+  color: rgb(102, 102, 102)!important;
+}
+
+.primary-color{
+  color:#285ec9!important;
+  /* color:#2464ad!important; */
+}
+.bg-primary-color{
+  background-color:#285ec9!important;
+  /* color:#2464ad!important; */
+}
+
+.mat-dialog-container {
+  padding: 15px !important;
+}

@@ -1,0 +1,87 @@
+.btn-parent{
+    margin-top: 30px;
+}
+
+.btn-ok{
+    margin-right: 10px;
+    padding: 6px 20px;
+    border-radius: 4px!important;
+}
+
+.btn-cancel{
+    background-color: #6d7f8e !important;
+}
+
+.mat-parent{
+    padding: 5px 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    padding-top: 4px !important;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+
+.c-green{
+    color:rgb(4, 82, 131);
+}
+
+.bg-green{
+    background-color: rgba(29, 119, 151, 0.94);
+}
+
+.sub-head{
+    position: relative;
+    height: 15px;
+}
+
+.sub-head  .hor-line{
+    display: inline-block;
+    position: absolute;
+    border:0;
+    border-bottom: 0.01rem solid rgb(202, 202, 202);    
+    right: 0;
+
+}
+
+.sub-head > span{
+    margin-right: 2px;
+}
+
+.c-black{
+    color: black;
+}
+
+.c-light-dark{
+    color:rgb(96, 96, 96);
+}
+
+.route-name{
+    /* width: 280px; */
+    height: 15px;
+    text-overflow: ellipsis!important;
+    /* overflow:  */
+    
+}
+
+.text-overfl{
+    text-overflow: ellipsis;
+}
+
+.f-w-400{
+    font-weight: 400!important;
+}
+.f-w-500{
+    font-weight: 500!important;
+}
